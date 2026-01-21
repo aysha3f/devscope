@@ -1,0 +1,50 @@
+/* Error Message Component Styles */
+
+.error {
+  background: var(--color-danger-light);
+  border: 1px solid var(--color-danger);
+  border-radius: var(--border-radius-lg);
+  padding: var(--spacing-xl);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+.icon {
+  color: var(--color-danger);
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-top: var(--spacing-xs);
+}
+
+.error h3 {
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--color-danger);
+}
+
+.error p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.retryButton {
+  background: var(--color-danger);
+  color: white;
+  border: none;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--border-radius-md);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.retryButton:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
